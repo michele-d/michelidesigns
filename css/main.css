@@ -1,0 +1,187 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #8c8c8c;
+  background: #cbd4b7;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size:30px;
+  color: #bbc085;
+  font-weight: bold;
+}
+
+h3 {
+  font-size:24px;
+  font-weight: bold;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 550px;
+  float:left;
+}
+
+.third-width {
+  width: 350px;
+  height: 450px;
+  background: white;
+  margin: 50px 25px;
+  box-sizing:border-box;
+  float:left;
+}
+
+/***** HEADER *****/
+header {
+  height: 800px;
+  background: url('../img/hero2.jpg') no-repeat;
+  background-size: cover;
+}
+
+header h2 {
+  padding: 65px 50px 65px 25px;
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #bbc085;
+  padding-left: 80px;
+}
+
+header h1 {
+  width: 1000px;
+  clear: both;
+  font-family: 'Lora', serif;
+  font-size: 72px;
+  line-height: 30px;
+  color: #9b9b9b;
+  padding: 20px 0 20px 25px;
+}
+
+/***** ABOUT *****/
+#about .full-width {
+  margin: 50px 75px;
+}
+
+#about .half-width {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#about h2 {
+  color: #2c6c96;
+}
+
+#about p {
+  line-height:40px;
+}
+
+/***** WORK *****/
+#work {
+  background: url('../img/tiles.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+#work .full-width {
+  margin-left: 50px;
+  padding: 40px 0;
+}
+
+#work img {
+  padding: 30px 0 30px 0;
+}
+
+#work h3 {
+  line-height:32px;
+  width:190px;
+  margin: 0 auto;
+}
+
+#work p {
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+/***** Contact *****/
+#contact {
+  background: #ebebeb;
+}
+
+#contact .full-width {
+  padding: 40px 0 40px 40px;
+}
+
+#contact img#contact-image {
+  border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#contact #envelope-icon {
+  padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+  line-height: 44px;
+}
+
+#contact #email-header {
+  color: #bbc085;
+  line-height: 24px;
+}
+
+#contact #socialmedia-header {
+  font-weight: bold;
+  font-size:29px;
+  line-height:44px;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  color: #9b9b9b;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  font-size: 32px;
+  padding-right: 48px;
+}
+
+
+/***** THE END *****/
